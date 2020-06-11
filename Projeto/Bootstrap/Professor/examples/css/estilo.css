@@ -1,0 +1,239 @@
+* {
+    font-family:Consolas
+}
+   
+.tabelaEditavel {
+    border:solid 1px;
+    width:100%;
+	margin: -2px -01px;
+			background: FFFFFF	;
+
+}
+ 
+.tabelaEditavel td {
+border-style: dotted;
+  border-bottom-width:1px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+
+}
+ 
+.tabelaEditavel .celulaEmEdicao {
+    padding: 0;
+			background: #FFFFE0	;
+
+
+}
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+ /*
+My component for implementation of progress bar. I use CSS Custom Properties for settings of parameters such as size, color, unit e.t.c. The diagram is implemented via SVG.
+
+*/
+
+/*
+=====
+c-progress
+=====
+*/
+
+.c-progress{
+  --uicProgressSize: var(--cProgressSize);
+  --uicProgressCircumference: var(--cProgressCircumference, 2.51327em);
+  --uicProgressGraphValue: var(--cProgressGraphValue, 2.51327em);
+	
+	font-size: var(--uicProgressSize);
+	width: 1em;
+	height: 1em;  
+  
+  position: relative; 
+  transform: rotate(-90deg);
+}
+
+.c-progress__circle{
+  width: 100%;
+  height: 100%;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.c-progress__progress-bg{
+  opacity: .4;
+}
+
+.c-progress__progress-value{
+  stroke-dasharray: var(--uicProgressCircumference);
+  stroke-dashoffset: var(--uicProgressGraphValue);
+	transition: stroke-dashoffset 1.5s cubic-bezier(0.42, 0, 0, 1.1), stroke .5s ease-out;
+}
+
+/*
+=====
+c-progressbar
+=====
+*/
+
+.c-progressbar{
+	--cProgressSize: var(--cProgressBarSize);
+  --cProgressColor: var(--cProgressBarColor);
+  --cProgressStrokeWidth: var(--cProgressBarStrokeWidth);	
+	--uicProgressBarSize: var(--cProgressBarSize);
+	--uicProgressBarUnit: var(--cProgressBarUnit, "%");
+	--uicProgressBarValueFontFamily: var(--cProgressBarValueFontFamily);
+	--uicProgressBarValueFontSize: var(--cProgressBarValueFontSize);
+	--uicProgressBarValueFontWeight: var(--cProgressBarValueFontWeight);
+	--uicProgressBarValueTextColor: var(--cProgressBarValueTextColor);
+  
+	position: relative;
+	width: var(--uicProgressBarSize);
+	height: var(--uicProgressBarSize);
+}
+
+.c-progressbar__value{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.c-progressbar__value::after{
+	content: var(--uicProgressBarUnit);
+}
+
+.c-progressbar__value{
+	font-family: var(--uicProgressBarValueFontFamily);
+  font-weight: var(--uicProgressBarValueFontWeight);
+  font-size: var(--uicProgressBarValueFontSize);
+	color: var(--uicProgressBarValueTextColor);
+}
+
+/*
+=====
+SETTINGS
+=====
+*/
+
+.c-progressbar{
+	--cProgressBarUnit: "%";
+	--cProgressBarSize: 70vmin;
+  --cProgressBarColor: #a29bfe;
+	--cProgressBarValueFontFamily: inherit;
+	--cProgressBarValueFontSize: 8vmin;
+	--cProgressBarValueFontWeight: 700;
+  --cProgressBarStrokeWidth: 2vmin;
+	--cProgressBarValueTextColor: #a29bfe;	
+}
+
+.tabelaEditavel .celulaEmEdicao input[type=text]{
+    width:5%;
+    border:0;
+				background: #FFFFE0	;
+
+
+}
+
+#pro1{
+	width: 74%;
+	float:left;
+
+	background: #C0C0C0	;
+	margin:-12px 300px ;
+	
+	
+}
+.av{
+	width: 100%;
+background: #EE82EE		;
+	margin:23px 2px ;	
+	
+	
+	
+}
+.av1{
+width: 100%;
+background: #F0E68C		;
+	
+	margin:-25px 2px ;	
+	
+	
+
+
+
+.formama23{
+	
+	
+	margin:-25px 2px ;	
+	
+	
+}
+.formama1{
+		width: 74%;
+	margin:544px 96px ;	
+
+}
+.imss{
+	
+		margin:-12px 1000px ;
+
+	
+	
+}
+#isms{
+		margin:2630px 3330px ;
+
+	
+	
+}
+
+#panel-body de{
+	margin: 223213213212px ;
+	
+	
+}
+#aff{margin: 1232px ;
+
+
+}
+input[type='file'] {
+  display: none
+}
+
+.input-wrapper label {
+  background-color: #3498db;
+ 
+  color: #fff;
+  position: absolute; 
+	right: 450px; /* posiciona a 90px para a esquerda */ 
+	
+	top: 56px; 
+  padding: 8px 26px
+}
+
+.input-wrapper label:hover {
+  background-color: #2980b9
+}
+#tric{
+		margin: 22px ;
+
+	
+	
+}
+#valooooo{
+	
+			margin: 222px  342px;
+
+	
+}

@@ -1,0 +1,231 @@
+<div class="val">					
+	
+	
+	
+		<div id="pro">
+			 <!-- Inicio do painel -->
+            
+                                    <div class="panel-bodytxt-block">
+										<div class="oioiio">
+                                        <h2 class="aff">Chat </h2>
+										<div class="tric">
+                                        <h4 class="sub-header">Chat com a turma:
+                                            <select name="tEst" id="cEst">
+											<optgroup label="Engenharia de Computação">
+											<option value="ED"value="ED" > Estrutura de dados</option>
+											<option value="GR"  onclick="location.href=' file:///C:/Users/walney/Desktop/ProjetoUsabilidade/BarraTelaInicial/planejamento.html'" selected> Grafos</option>
+											</optgroup>
+											</select>
+											 
+                                        </h4>
+										</div>
+							</div>
+							
+											
+										      
+											
+											
+											
+                                  </div>
+
+
+																										
+									
+	
+		</div>
+		
+						
+						 
+						
+						 
+		</div>				 
+		</div>	
+					
+	<div id="pro1">		
+		
+    <table class="tabelaEditavel">
+	<h2>Conteudo da aula</h2>
+	
+	<thead>
+            <tr>                
+			<th>Aula</th>
+
+                <th>Data</th>
+                <th>Inicio</th>
+                <th>Termino</th>
+                <th>Conteudo Previsto</th>
+                <th>Conteudo Realizado</th>
+	             <th>Tipo de Aula</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>23/05/2020</td>
+                <td>8:00</td>
+                <td>8:50</td>
+				  <td>Introdução a grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Teorica</td>
+            </tr>
+          <tr>
+                <td>2</td>
+                <td>23/05/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Introdução a grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Teorica</td>
+            </tr>
+			<tr>
+                <td>3</td>
+                <td>24/05/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Aplicacao de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Teorica</td>
+            </tr>
+			<tr>
+                <td>4</td>
+                <td>30/05/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Aplicacao de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Teorica</td>
+            </tr>
+			<tr>
+                <td>5</td>
+                <td>30/05/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Aplicacao de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Teorica</td>
+            </tr>
+			<tr>
+                <td>6</td>
+                <td>01/06/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Laboratorio de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Pratica</td>
+            </tr>
+			<tr>
+                <td>7</td>
+                <td>01/06/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Laboratorio de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Pratica</td>
+            </tr>
+            
+			<tr>
+                <td>8</td>
+                <td>01/06/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Laboratorio de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Pratica</td>
+            </tr>
+            
+			<tr>
+                <td>9</td>
+                <td>01/06/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Laboratorio de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Pratica</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>01/06/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Laboratorio de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Pratica</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>01/06/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Laboratorio de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Pratica</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>01/06/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Laboratorio de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Pratica</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>01/06/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Laboratorio de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Pratica</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>01/06/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Laboratorio de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Pratica</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>07/06/2020</td>
+                <td>8:50</td>
+                <td>9:50</td>
+				  <td>Laboratorio de Grafos</td>
+				     <td>Introdução a grafos</td>
+					  <td>Pratica</td>
+            </tr>
+            
+            
+        </tbody>
+    </table>				 
+						 
+	</div>
+</div>
+						 
+</div>	
+	
+		
+	<div class="val">					
+	
+	
+	
+		<div id="pro">
+			 <!-- Inicio do painel -->
+            
+                                    <div class="panel-bodytxt-block">
+										<div class="oioiio">
+                                        <h2 class="aff"> Inserir Planejamento </h2>
+										<div class="tric">
+										Aula: <input type="text" name="fname" id="fname" /><br/><br/>
+										Data: <input type="text" name="lname" id="lname" /><br/><br/>
+										Inicio: <input type="text" name="age" id="age" /><br/><br/>
+										Termino: <input type="text" name="termino" id="termino" /><br/><br/>
+										Conteudo Previsto: <input type="text" name="conteudo" id="conteudo" /><br/><br/>
+										Conteudo Realizado: <input type="text" name="realizado" id="realizado" /><br/><br/>
+										Conteudo tipo: <input type="text" name="tipo" id="tipo" /><br/><br/>
+
+				
+</div>				<button onclick="addRow();">Add Row</button><br/><br/>

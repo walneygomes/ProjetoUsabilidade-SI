@@ -1,0 +1,56 @@
+body{
+	background-color:#FFEBCD	;
+  
+  }
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.len {
+    width: 50%;
+    height: 50%;
+}
+
+.begin-header {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.img-hand {
+    padding-left: 333px;
+}
+
+#media {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 26px;
+}
+
+#ira {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 6px;
+}
+
+#situacao {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 4px;
+}
+
+
+
+.title {
+    color: #151326;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Material de Aula</title>
+<link rel="stylesheet" href="css/barralateral.css"/>	
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/estilo.css"/>	
+		<link rel="stylesheet" href="js/script.js"/>	
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/prof.css">
+		 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/prof.css">
+    <link rel="stylesheet" type="text/css" href="css/light-bootstrap-dashboard.css" />
+    <link rel="stylesheet" type="text/css" href="css/acc-wizard.min.css" />
+
+
+
+</head>
+<body>
+<style>
+  body{
+	background-color:#C4C4C4	;
+  
+  }
+    </style>
+
+</head>
+<body>
+
+<div class="topoAqui">
+
+<img src="ims/unifacisa.png" class="img-topo">
+
+</div>
+<div class="topoAqui2">
+.
+</div>
+
+
+<input type= "checkbox" id="check">
+<label id="icone" class="vv" for="check"><img class="ctn-menu" src="icone.png"></label></a>
+
+<div class="barra">
+
+<nav>
+<div class="ctn-user">
+  <img src="ims/pessoa.png" class="img-user">
+  <h1>Fulano</h1>
+</div>
+<a href="inicio.html">
+
+<li>
+
+<div class="links" > <img src="ims/images (1).png" class="ims">
+INICIO</div></a>
+	</li>
+
+<a href="">
+  <li>
+    <div class="links"> 
+      <img src="ims/overtime.png" class="ims">AGENDAMENTO<img src="ims/123123321.png" class="iss">
+    </div>
+
+    <ul>  
+      <li><a href="agendamentoProva.htm"   class="links">PROVA</a></li> 
+      <li><a href="agendamentoTrabalho.htm" class="links">TRABALHO</a></li> 
+      <li><a href="agendamentoAtividade.htm" class="links">ATIVIDADE</a></li> 
+    </ul> 
+    
+  </li>
+</a>
+
+
+<li>
+	
+<a href="Atividade.html
+"><div class="links"><img src="ims/images1 (1).png" class="ims"> CRIA    ATIVIDADE </div></a>
+</li>
+
+
+
+<li>
+<a href=" ChatEntrar.html "><div class="links"><img src="ims/images2 (1).png" class="ims">CHAT</div></a>
+</li><li>
+<a href="MaterialAula.html"><div class="link"><img src="ims/images3 (1).png" class="ims">DIVULGAR MATERIAL</div></a>
+	
+	</li>
+
+	<li>
+<a href="planejamento.html"><div class="links"><img src="ims/images4 (1).png" class="ims">PLANEJAMENTO</div></a>
+	</li><li>
+<a href=""><div class="links"><img src="ims/images5 (1).png" class="ims">SAIR</div></a>
+
+</li>
+</nav>
+
+
+
+
+            
+                            <div class="card">
+                                <div class="panel">
+                                    <div class="panel-body txt-block">
+
+                                        <h2 class="">Material de Aula</h2>
+                                        <h4 class="sub-header">Enviar material para a turma:
+                                            <select name="tEst" id="cEst">
+                                <optgroup label="Engenharia de Computação">
+                                    <option value="ED"> Estrutura de dados</option>
+                                    <option value="GR" selected> Grafos</option>
+                                </optgroup>
+                                <optgroup label="Engenharia de Telecomunicações">
+                                    <option value="ED"> Estrutura de dados</option>
+                                    <option value="SS"> Sinais e sistemas</option>
+                                </optgroup>
+                                <optgroup label="Engenharia Mecânica">
+                                    <option value="CA"> Cálculo III</option>
+                                    <option value="MM"> Mecânica de materiais</option>
+                                </optgroup>
+                            </select>
+                                          
+                               <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<div class="file-upload">
+
+  <div class="image-upload-wrap">
+    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+    <div class="drag-text">
+      <h3>Arraste aqui o arquivo</h3>
+    </div>
+  </div>
+  <div class="file-upload-content">
+    <img class="file-upload-image" src="#" alt="your image" />
+    <div class="image-title-wrap">
+      <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
+    </div>
+  </div>
+</div>
+ <button type="submit" class="sd">											
+  <img src="ims/butpost.png"type="submit" class="sd" id="p2o">
+ </button>
+	    
+<a href="MaterialAula.html">
+           	
+<img src="ims/asd.png"type="submit" class="sd" id="p2o">			
+  <!--img src="ims/XXXXXX.png"type="submit" class="sd" id="p2o"-->
+										
+											
+											</a>
+</div>
+	
+</div>	
+						 
+					 
+						 
+
+
+<script>
+function readURL(input) {
+  if (input.files && input.files[0]) {
+
+    var reader = new FileReader();
+
+    reader.onload = function(e) {
+      $('.image-upload-wrap').hide();
+
+      $('.file-upload-image').attr('src', e.target.result);
+      $('.file-upload-content').show();
+
+      $('.image-title').html(input.files[0].name);
+    };
+
+    reader.readAsDataURL(input.files[0]);
+
+  } else {
+    removeUpload();
+  }
+}
+
+function removeUpload() {
+  $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+  $('.file-upload-content').hide();
+  $('.image-upload-wrap').show();
+}
+$('.image-upload-wrap').bind('dragover', function () {
+		$('.image-upload-wrap').addClass('image-dropping');
+	});
+	$('.image-upload-wrap').bind('dragleave', function () {
+		$('.image-upload-wrap').removeClass('image-dropping');
+});
+
+</script>
+</body>
+
+</html>
