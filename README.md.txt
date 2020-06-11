@@ -1,7 +1,7 @@
 FERRAMENTAS 
 O projeto fez uso das seguintes ferramentas:
 •	HTML;
-•	CSS (Bootstrap/Materialize) ;
+•	CSS (Bootstrap) ;
 •	Javascript(biblioteca: JQuery).
 •	
 PRAZO DO PROJETO
